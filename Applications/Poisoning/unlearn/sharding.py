@@ -39,8 +39,8 @@ def run_experiment(model_folder, train_kwargs, poison_kwargs, unlearn_kwargs):
 
 
 def unlearn_shards(model_folder, model_init, data, y_train_orig, delta_idx, train_kwargs, unlearn_kwargs):
-    poisoned_weights = os.path.join(parent(model_folder), 'poisoned_model.hdf5')
-    repaired_weights = os.path.join(model_folder, 'repaired_model.hdf5')
+    poisoned_weights = os.path.join(parent(model_folder), 'poisoned_model.weights.h5')
+    repaired_weights = os.path.join(model_folder, 'repaired_model.weights.h5')
     unlearning_result = UnlearningResult(model_folder)
 
     # load clean validation ACC and backdoor success rate for reference
@@ -66,7 +66,7 @@ def unlearn_shards(model_folder, model_init, data, y_train_orig, delta_idx, trai
 
 def evaluate_sharding_unlearn(model_folder, model_init, model_weights, data, delta_idx, y_train_orig, train_kwargs, repaired_filepath=None,
                               clean_acc=1.0, verbose=False, log_dir=None, **unlearn_kwargs):
-    ensemble = load_ensemble(model_folder, model_init, suffix='poisoned_model.hdf5')
+    ensemble = load_ensemble(model_folder, model_init, suffix='poisoned_model.weights.h5')
     affected_shards = ensemble.get_affected(delta_idx)
     if verbose:
         print(f">> sharding: affected_shards = {len(affected_shards)}/{len(ensemble.models)}")

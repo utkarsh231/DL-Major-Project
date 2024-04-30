@@ -45,7 +45,7 @@ def run_experiment(model_folder, train_kwargs, poison_kwargs, unlearn_kwargs, re
 
     model_init = lambda: get_VGG_CIFAR10(dense_units=train_kwargs['model_size'])
     poisoned_filename = 'poisoned_model.hdf5'
-    repaired_filename = 'repaired_model.hdf5'
+    repaired_filename = 'repaired_model.weights.h5'
     first_order_unlearning(model_folder, poisoned_filename, repaired_filename, model_init, data,
                            y_train_orig, injector.injected_idx, unlearn_kwargs, verbose=verbose)
 

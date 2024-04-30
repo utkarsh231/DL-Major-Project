@@ -1,6 +1,0 @@
-{
-    "epochs": 100,
-    "batch_size": 64,
-    "model_size": 512,
-    "_filename": "/Users/utkarsh/Desktop/Unlearning/MachineUnlearning/models/poisoning/budget-10000/seed-42/train_config.json"
-}

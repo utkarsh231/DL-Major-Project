@@ -5,6 +5,6 @@
     "acc_perc_restored": 0.3190882217342048,
     "diverged": false,
     "n_gradients": 3420,
-    "unlearning_duration_s": 85.22455808892846,
+    "unlearning_duration_s": 8428.704430253,
     "num_params": 1798282
 }
