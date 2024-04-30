@@ -1,6 +1,7 @@
 # What are we doing?
-1. A code to poision the CIFAR10 dataset ~ mislabelling the images in the dataset.
-2. Performing Unlearning in 2 orders ~ First and Second Order
+1. Training the dataset on VGG.
+2.  A code to poision the CIFAR10 dataset ~ mislabelling the images in the dataset.
+3. Performing Unlearning in 2 orders ~ First and Second Order
 
 # How to run?
 
@@ -9,6 +10,27 @@
 
 # Results:
 
+Training the dataset on VGG:
+
+Results:
+
+    "accuracy": 0.8786
+    "weighted avg": 
+        "precision": 0.8781495815813348,
+        "recall": 0.8786,
+        "f1-score": 0.8779643124074801,
+        "support": 5000
+    
+    "train_loss": 0.004181844647973776,
+    "test_loss": 0.689379096031189,
+    "epochs_for_min": 100,
+    "time": 1229.8301207087934
+
+Detailed Output Result [here](models/poisoning/clean/train_results.json)
+
+
+## Unlearning Results
+    
 ![Final Output](result/output.png)
 
 [First order Training results :](models/poisoning/budget-10000/seed-42/first-order/unlearning_results.json)
