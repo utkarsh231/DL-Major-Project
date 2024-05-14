@@ -51,7 +51,7 @@ The unlearning approach presented in this project can be adapted to work on a wi
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Acknowledgments
 
