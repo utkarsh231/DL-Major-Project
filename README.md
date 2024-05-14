@@ -34,14 +34,13 @@ The unlearning approach presented in this project can be adapted to work on a wi
 
 ## Requirements
 
-- tensorflow==2.7.0
-- scikit-learn==1.0.2
-- nltk==3.8.1
-- tqdm==4.65.0
-- click==8.1.3
-- matplotlib==3.5.3
-- pandas==1.3.5
-- seaborn==0.12.2
+- tensorflow
+- scikit-learn
+- tqdm
+- click
+- matplotlib
+- pandas
+- seaborn
 
 ## Usage
 
