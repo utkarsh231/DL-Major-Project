@@ -23,7 +23,7 @@ The effectiveness of the approach is validated through case studies on unlearnin
 
 The project successfully implemented unlearning on the CIFAR-10 image dataset, preserving the model's accuracy after a poisoning attack. While the unlearning process restored accuracy to 78.30% (compared to the initial 87.86% before the attack), further refinement is needed to achieve near-accurate scores.
 
-###[Initial Train Result](models/poisoning/budget-10000/seed-42/train_results.json)
+### [Initial Train Result](models/poisoning/budget-10000/seed-42/train_results.json)
 `
   "accuracy": 0.7438,
   "weighted avg":
@@ -36,7 +36,7 @@ The project successfully implemented unlearning on the CIFAR-10 image dataset, p
   "epochs_for_min": 99,
   "time": 1237.2063738070428
 `
-###[First Order Unlearning Result](models/poisoning/budget-10000/seed-42/first-order/unlearning_results.json):
+### [First Order Unlearning Result](models/poisoning/budget-10000/seed-42/first-order/unlearning_results.json):
 `
     "acc_clean": 0.8786,
     "acc_before_fix": 0.7382000088691711,
@@ -47,7 +47,7 @@ The project successfully implemented unlearning on the CIFAR-10 image dataset, p
     "unlearning_duration_s": 3327.0377593769986,
     "num_params": 1798282
 `
-###[Second Order Unlearning Result](models/poisoning/budget-10000/seed-42/second-order/unlearning_results.json)
+### [Second Order Unlearning Result](models/poisoning/budget-10000/seed-42/second-order/unlearning_results.json)
 `
     "acc_clean": 0.8786,
     "acc_before_fix": 0.7382000088691711,
