@@ -44,7 +44,7 @@ The unlearning approach presented in this project can be adapted to work on a wi
 
 ## Usage
 
-1. Clone the repository: `git clone [https://github.com/your_username/project_name.git](https://github.com/utkarsh231/DL-Major-Project.git)`
+1. Clone the repository: `git clone https://github.com/utkarsh231/DL-Major-Project.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the file to prepare dataset: `python example_notebooks/Cifar_data.ipynb`
 4. Run the experiments: `python example_notebooks/Backdoor-Unlearning.ipynb`
