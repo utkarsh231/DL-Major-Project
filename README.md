@@ -31,26 +31,24 @@ The effectiveness of unlearning diminishes as the number of affected features an
 
 The unlearning approach presented in this project can be adapted to work on a wide range of applications, including addressing unintended memorization in language models based on recurrent neural networks.
 
-## Repository Structure
-
-- `src/`: Contains the source code for the unlearning methods and experiments.
-- `data/`: Contains the CIFAR-10 dataset used in the experiments.
-- `results/`: Stores the results and trained models from the experiments.
-- `docs/`: Contains the project report and any additional documentation.
 
 ## Requirements
 
-- Python 3.8 or higher
-- PyTorch
-- NumPy
-- Matplotlib
-- (Add any other requirements specific to your project)
+- tensorflow==2.7.0
+- scikit-learn==1.0.2
+- nltk==3.8.1
+- tqdm==4.65.0
+- click==8.1.3
+- matplotlib==3.5.3
+- pandas==1.3.5
+- seaborn==0.12.2
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your_username/project_name.git`
+1. Clone the repository: `git clone [https://github.com/your_username/project_name.git](https://github.com/utkarsh231/DL-Major-Project.git)`
 2. Install the required dependencies: `pip install -r requirements.txt`
-3. Run the experiments: `python src/main.py`
+3. Run the file to prepare dataset: `python example_notebooks/Cifar_data.ipynb`
+4. Run the experiments: `python example_notebooks/Backdoor-Unlearning.ipynb`
 
 ## License
 
