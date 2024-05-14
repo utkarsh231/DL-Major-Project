@@ -25,28 +25,19 @@ The project successfully implemented unlearning on the CIFAR-10 image dataset, p
 
 ### [Initial Train Result](models/poisoning/budget-10000/seed-42/train_results.json)
   
-  "accuracy": 0.7438,
-  
-  "weighted avg":
-  
-        "precision": 0.746950163723857,
-        
-        "recall": 0.7438,
-        
-        "f1-score": 0.744573440846692,
-        
-        "support": 5000,
-        
-  "train_loss": 0.017946992069482803,
-  
-  "test_loss": 1.3488121032714844,
-  
-  "epochs_for_min": 99,
-  
-  "time": 1237.2063738070428
+    "accuracy": 0.7438,
+    "weighted avg":
+          "precision": 0.746950163723857,
+          "recall": 0.7438,
+          "f1-score": 0.744573440846692,
+          "support": 5000,
+    "train_loss": 0.017946992069482803,
+    "test_loss": 1.3488121032714844,
+    "epochs_for_min": 99,
+    "time": 1237.2063738070428
 
 ### [First Order Unlearning Result](models/poisoning/budget-10000/seed-42/first-order/unlearning_results.json):
-`
+
     "acc_clean": 0.8786,
     "acc_before_fix": 0.7382000088691711,
     "acc_after_fix": 0.7685999870300293,
@@ -55,9 +46,9 @@ The project successfully implemented unlearning on the CIFAR-10 image dataset, p
     "n_gradients": 512,
     "unlearning_duration_s": 3327.0377593769986,
     "num_params": 1798282
-`
+
 ### [Second Order Unlearning Result](models/poisoning/budget-10000/seed-42/second-order/unlearning_results.json)
-`
+
     "acc_clean": 0.8786,
     "acc_before_fix": 0.7382000088691711,
     "acc_after_fix": 0.7829999923706055,
@@ -66,7 +57,7 @@ The project successfully implemented unlearning on the CIFAR-10 image dataset, p
     "n_gradients": 3420,
     "unlearning_duration_s": 8428.704430253,
     "num_params": 1798282
-`
+
 
 
 
