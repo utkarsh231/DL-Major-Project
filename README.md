@@ -1,5 +1,3 @@
-Sure, here's a README file for the GitHub repository based on the report:
-
 # Data Retraction and Ensuring Model Integrity
 
 This project focuses on addressing data leaks, privacy issues, and poisoning attacks in machine learning models, particularly in the domain of computer vision. It introduces a method for unlearning features and labels from learning models, leveraging influence functions to estimate the influence of training data on the model and translate it into a form of unlearning.
